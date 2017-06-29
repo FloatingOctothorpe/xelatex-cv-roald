@@ -61,20 +61,20 @@
 % --------------------------------- %
 %     FONTS                         %
 % --------------------------------- %
-\setmainfont{SourceSansPro}[
+\setmainfont[
     Path = Fonts/,
     Extension = .otf ,
     UprightFont = *-Light,
     ItalicFont = *-LightIt,
     BoldFont = *-Semibold,
-]
+]{SourceSansPro}
 
-\newfontfamily\titlefont{AdventPro}[
+\newfontfamily\titlefont[
     Path = Fonts/,
     Extension = .ttf,
     UprightFont = *-ExtraLight,
     BoldFont = *-SemiBold,
-]
+]{AdventPro}
 
 % --------------------------------- %
 %     COLORS                        %
