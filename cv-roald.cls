@@ -28,6 +28,7 @@
 % --------------------------------- %
 %     PACKAGES                      %
 % --------------------------------- %
+\RequirePackage{hyperref} % Needed for links
 \RequirePackage{fontspec} % Needed to run XeLaTeX
 \RequirePackage{titlesec} % To alter the style and spacing of titles
 \RequirePackage{tikz} % Draw things, needed for the header
@@ -144,3 +145,10 @@
 % --------------------------------- %
 \setlength{\parindent}{0pt} % Remove indent at the start of a new paragraph
 \setlength{\parskip}{\vspacepar} % adds extra vertical space between paragraphs
+
+% --------------------------------- %
+%     HYPERLINK OPTIONS             %
+% --------------------------------- %
+\hypersetup{
+    hidelinks=true
+}
